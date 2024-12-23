@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  hsetewxtsragbot:
+    build: .
+    container_name: hsetewxtsragbot
+    env_file:
+      - .env
+    restart: unless-stopped  # Контейнер будет автоматически перезапускаться, если он остановится

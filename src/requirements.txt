@@ -1,0 +1,9 @@
+telebot
+chromadb
+nltk
+requests
+sentence-transformers
+spacy
+python-dotenv
+python-docx
+chardet
